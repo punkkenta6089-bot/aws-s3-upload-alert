@@ -55,3 +55,9 @@ Email
 - Store upload metadata in DynamoDB
 - Add CloudWatch alarms
 - Integrate Slack notifications
+
+---
+
+## Architecture Diagram
+
+![Architecture](architecture.png)
