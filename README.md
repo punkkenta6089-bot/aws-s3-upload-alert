@@ -8,18 +8,6 @@ The system is built using an event-driven architecture where an S3 upload trigge
 
 ---
 
-## Architecture
-
-S3 (File Upload)
-↓
-Lambda (Trigger)
-↓
-SNS (Notification)
-↓
-Email
-
----
-
 ## AWS Services Used
 
 - Amazon S3
