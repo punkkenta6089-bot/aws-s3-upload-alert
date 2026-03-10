@@ -58,6 +58,6 @@ Email
 
 ---
 
-## Architecture Diagram
+## Architecture
 
-![Architecture](architecture.png)
+S3 (File Upload) │ ▼ Lambda (Trigger) │ ▼ SNS (Notification) │ ▼ Email
