@@ -59,5 +59,6 @@ Email
 ---
 
 ## Architecture
-
+```
 S3 (File Upload) │ ▼ Lambda (Trigger) │ ▼ SNS (Notification) │ ▼ Email
+```
