@@ -59,3 +59,19 @@ SNS (Notification)
       ▼
 Email
 ```
+## Architecture
+
+```text
+S3 (File Upload)
+      │
+      ▼
+Lambda (Trigger / Process)
+      │
+      ├──► DynamoDB (Store Record)
+      │
+      ▼
+SNS (Notification)
+      │
+      ▼
+Email
+```
